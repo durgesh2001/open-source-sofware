@@ -1,0 +1,58 @@
+body{
+    background-image: url("images/pic2.jpg");
+    
+}
+
+.navbar {
+    padding: 0;
+    
+  }
+.navbar .navbar-brand {
+    color:bisque;
+    font-family: "Nunito", sans-serif;
+
+  }
+.navbar .navbar-text{
+    color:aqua;
+}
+  
+  .navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+  
+  .navbar li {
+    position: relative;
+  }
+  
+  .navbar a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 10px 30px;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #013289;
+    white-space: nowrap;
+    transition: 0.3s;
+  }
+  
+  .navbar a i {
+    font-size: 12px;
+    line-height: 0;
+    margin-left: 5px;
+  }
+  
+  .navbar a:hover, .navbar .active, .navbar li:hover > a {
+    color: #4154f1;
+  }
+  
+  #sources{
+      background-color:rgb(247, 243, 239) ;
+  }
+
+  
