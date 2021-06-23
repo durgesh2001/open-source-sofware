@@ -55,4 +55,16 @@ body{
       background-color:rgb(247, 243, 239) ;
   }
 
+  .container img{
+    padding: 50px;
+  justify-content: center;
+  
+  }
+
+  .container text{
+    display: flex;
+  justify-content: center;
+  
+  }
+
   
